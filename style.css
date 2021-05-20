@@ -19,3 +19,24 @@ nav{
     display: flex;
     justify-content: center;
 }
+
+.idk{
+    background-image:url(https://ak.picdn.net/shutterstock/videos/1023506464/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#containerProfil{
+    border-radius:50%;
+    width:11%;
+    display: flex;
+    justify-content : center;
+    align-items : center; 
+}
+
+#pictureProfil{
+    border-radius:50%;
+    width:150px;
+    height:150px;
+}
