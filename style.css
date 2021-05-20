@@ -1,5 +1,9 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 nav{
@@ -20,23 +24,22 @@ nav{
     justify-content: center;
 }
 
-.idk{
-    background-image:url(https://ak.picdn.net/shutterstock/videos/1023506464/thumb/1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 #containerProfil{
-    border-radius:50%;
-    width:11%;
+    background: rgba(185, 253, 255, 0.781);
     display: flex;
-    justify-content : center;
+    justify-content : flex-start;
     align-items : center; 
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 #pictureProfil{
     border-radius:50%;
     width:150px;
     height:150px;
+}
+
+/*just to space the image of information*/
+#descriptionOneself{
 }
