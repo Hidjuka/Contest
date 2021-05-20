@@ -7,12 +7,27 @@ body{
     background-attachment: fixed;
 }
 nav{
-    position: relative;
-    font-size: 17px;
-    background-color: #8c9bf0;
-    color:white;
     width: 100%;
+    background-color: rgba(112, 108, 108, 0.726);
 }
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 2%;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+nav li{
+    width: 30%;
+    text-align: center;
+}
+
 footer{
     background: rgba(139, 127, 127, 0.658);
     padding-top: 2%;
