@@ -18,6 +18,11 @@ footer{
     padding-top: 2%;
     padding-bottom: 1%;
 }
+footer img{
+    background: rgba(255, 255, 255, 0.692);
+    width: 5%;
+    margin-left: 20%;
+}
 .menu{
     display: inline-block;
 }
@@ -25,7 +30,6 @@ footer{
     display: flex;
     justify-content: center;
 }
-
 
 /* PRESENTATION PAGE - ALPHABETIC ORDER*/
 .containerCompetences{
@@ -44,6 +48,12 @@ footer{
     display: flex;
     justify-content : space-around;
 }
+
+.containerDescription img{
+    width: 30%;
+}
+
+
 #containerProfil{
     background: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -53,13 +63,6 @@ footer{
     padding-top: 3%;
     padding-bottom: 2%;
     position: relative;
-}
-
-#containerProfil h1{
-    color: whitesmoke;
-}
-#containerProfil h2{
-    color: whitesmoke;
 }
 
 #containerProfil::after {
@@ -74,18 +77,19 @@ footer{
     position: absolute;
     z-index: -1;   
 }
-#descriptionOneself{
-    padding-left: 2%;
+
+#containerProfil h1{
+    color: whitesmoke;
 }
-.iconesknowledge{
-    width: 30%;
+#containerProfil h2{
+    color: whitesmoke;
 }
-.iconesLogo{
-    background: rgba(255, 255, 255, 0.692);
-    width: 5%;
-    margin-left: 20%;
-}
-#pictureProfil{
+
+#containerProfil img{
     width:15%;
     height:15%;
+}
+
+#descriptionOneself{
+    padding-left: 2%;
 }
