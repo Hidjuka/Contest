@@ -1,3 +1,4 @@
+/* ALL PAGES */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg);
@@ -5,24 +6,44 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-
 nav{
     position: relative;
     font-size: 17px;
     background-color: #8c9bf0;
-    color: #ffffff;
+    color:white;
     width: 100%;
 }
-
+footer{
+    background: rgba(139, 127, 127, 0.658);
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
 .menu{
     display: inline-block;
 }
-
 .menu ol{
     display: flex;
     justify-content: center;
 }
 
+
+/* PRESENTATION PAGE - ALPHABETIC ORDER*/
+.containerCompetences{
+    background: rgba(255, 255, 255, 0.692);
+    width: 33%;
+    display: flex;
+    justify-content : center;
+    align-items : center; 
+    flex-direction: column;
+    border-radius: 30px;
+}
+.containerDescription{
+    background: rgba(139, 127, 127, 0.658);
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content : space-around;
+}
 #containerProfil{
     background: rgba(185, 253, 255, 0.781);
     display: flex;
@@ -32,37 +53,18 @@ nav{
     padding-top: 3%;
     padding-bottom: 2%;
 }
-
-#pictureProfil{
-    border-radius:50%;
-    width:150px;
-    height:150px;
-}
-
 #descriptionOneself{
     padding-left: 2%;
 }
-
-.containerDescription{
-    background: rgba(139, 127, 127, 0.658);
-    padding-top: 2%;
-    padding-bottom: 1%;
-    display: flex;
-    justify-content : space-around;
+.iconesknowledge{
+    width: 30%;
 }
-
-.icones{
-    border-radius:50%;
-    width: 120px;;
-    height: 120px;;
-}
-
-.containerCompetences{
+.iconesLogo{
     background: rgba(255, 255, 255, 0.692);
-    width: 33%;
-    display: flex;
-    justify-content : center;
-    align-items : center; 
-    flex-direction: column;
-    border-radius: 30px;
+    width: 5%;
+    margin-left: 20%;
+}
+#pictureProfil{
+    width:15%;
+    height:15%;
 }
