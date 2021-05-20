@@ -45,13 +45,34 @@ footer{
     justify-content : space-around;
 }
 #containerProfil{
-    background: rgba(185, 253, 255, 0.781);
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content : flex-start;
     align-items : center; 
     padding-left: 15%;
     padding-top: 3%;
     padding-bottom: 2%;
+    position: relative;
+}
+
+#containerProfil h1{
+    color: whitesmoke;
+}
+#containerProfil h2{
+    color: whitesmoke;
+}
+
+#containerProfil::after {
+    content: "";
+    background: url(https://cdn.pixabay.com/photo/2020/07/06/01/33/forest-5375005_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
 }
 #descriptionOneself{
     padding-left: 2%;
