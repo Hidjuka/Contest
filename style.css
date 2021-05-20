@@ -1,0 +1,21 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    position: relative;
+    font-size: 17px;
+    background-color: #8c9bf0;
+    color: #ffffff;
+    width: 100%;
+    letter-spacing: 1%;
+}
+
+.menu{
+    display: inline-block;
+}
+
+.menu ol{
+    display: flex;
+    justify-content: center;
+}
