@@ -1,0 +1,178 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAV BAR - ALPHABETIC ORDER */
+.menu{
+    display: inline-block;
+}
+nav{
+    color:white;
+    width: 100%;
+    background-color: rgba(112, 108, 108, 0.726);
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 2%;
+    transition: all 1s ease-out;
+}
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+nav li{
+    width: 32%;
+    text-align: center;
+}
+
+/* FOOTER */
+footer{
+    background: rgba(139, 127, 127, 0.658);
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+footer img{
+    background: rgba(255, 255, 255, 0.692);
+    width: 5%;
+    margin-left: 20%;
+    transition: transform 1s;
+}
+footer img:hover{
+    transform: rotate(360deg);
+}
+
+/* PRESENTATION PAGE - ALPHABETIC ORDER */
+.containerCompetences{
+    background: rgba(255, 255, 255, 0.692);
+    width: 33%;
+    display: flex;
+    justify-content : center;
+    align-items : center; 
+    flex-direction: column;
+    border-radius: 30px;
+}
+.containerDescription{
+    background: rgba(139, 127, 127, 0.658);
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content : space-around;
+}
+.containerDescription img{
+    width: 30%;
+}
+#containerProfil{
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content : flex-start;
+    align-items : center; 
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    position: relative;
+}
+#containerProfil::after {
+    content: "";
+    background: url(https://cdn.pixabay.com/photo/2020/07/06/01/33/forest-5375005_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+#containerProfil h1{
+    color: whitesmoke;
+}
+#containerProfil h2{
+    color: whitesmoke;
+}
+#containerProfil img{
+    width:15%;
+    height:15%;
+}
+#descriptionOneself{
+    padding-left: 2%;
+}
+main h4{
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+/* PROJECTS PAGE - ALPHABETIC ORDER */
+article a{
+    margin: 8%;
+    font-weight: 500;
+}
+article img{
+    width: 75%;
+}
+figcaption{
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 10px;
+}
+main article{
+    background-color: rgba(255, 255, 255, 0.692);
+    flex-basis: 29%;
+    border-radius: 30px;
+    margin: 1%;
+    padding: 1%;
+    height: fit-content;
+}
+#organizationArticle{
+    background-color: rgba(139, 127, 127, 0.658);
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+article h1{
+    display: flex;
+    justify-content: center;
+}
+
+/* HOME PAGE - ALPHABETIC ORDER */
+article h2{
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.692);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+  
+@keyframes slidein{
+    from {
+      margin-left: 100%;
+      width: 150%;
+    }
+    to{
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+main h3{
+    text-shadow: 5px 4px 10px black;
+    font-weight: 500;
+    color: whitesmoke;
+}
+.recentProject{
+    background-color: rgba(139, 127, 127, 0.658);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
