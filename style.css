@@ -5,59 +5,6 @@ body{
     background-size: cover;
 }
 
-
-
-
-
-
-
-
-#organizationArticle{
-    background-color: rgba(139, 127, 127, 0.658);
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main article{
-    background-color: rgba(255, 255, 255, 0.692);
-    flex-basis: 31%;
-    border-radius: 30px;
-    margin: 1%;
-    height: 10%;
-}
-
-article img{
-    width: 75%;
-}
-
-article a{
-    margin: 8%;
-    font-weight: 500;
-}
-
-figcaption{
-    font-weight: lighter;
-    font-style: oblique;
-    font-size: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* NAV BAR - ALPHABETIC ORDER */
 .menu{
     display: inline-block;
@@ -67,21 +14,18 @@ nav{
     width: 100%;
     background-color: rgba(112, 108, 108, 0.726);
 }
-
 nav a{
     display: block;
     text-decoration: none;
     color: whitesmoke;
     padding: 2%;
 }
-
 nav a:hover{
     color: orange;
     border-bottom: 2px solid gold;
 }
-
 nav li{
-    width: 30%;
+    width: 32%;
     text-align: center;
 }
 
@@ -114,11 +58,9 @@ footer img{
     display: flex;
     justify-content : space-around;
 }
-
 .containerDescription img{
     width: 30%;
 }
-
 #containerProfil{
     background: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -129,7 +71,6 @@ footer img{
     padding-bottom: 2%;
     position: relative;
 }
-
 #containerProfil::after {
     content: "";
     background: url(https://cdn.pixabay.com/photo/2020/07/06/01/33/forest-5375005_1280.jpg);
@@ -142,19 +83,49 @@ footer img{
     position: absolute;
     z-index: -1;   
 }
-
 #containerProfil h1{
     color: whitesmoke;
 }
 #containerProfil h2{
     color: whitesmoke;
 }
-
 #containerProfil img{
     width:15%;
     height:15%;
 }
-
 #descriptionOneself{
     padding-left: 2%;
+}
+
+/* PROJECTS PAGE - ALPHABETIC ORDER */
+article a{
+    margin: 8%;
+    font-weight: 500;
+}
+article img{
+    width: 75%;
+}
+figcaption{
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 10px;
+}
+main article{
+    background-color: rgba(255, 255, 255, 0.692);
+    flex-basis: 29%;
+    border-radius: 30px;
+    margin: 1%;
+    padding: 1%;
+    height: fit-content;
+}
+#organizationArticle{
+    background-color: rgba(139, 127, 127, 0.658);
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+#organizationArticle h1{
+    display: flex;
+    justify-content: center;
 }
