@@ -19,10 +19,12 @@ nav a{
     text-decoration: none;
     color: whitesmoke;
     padding: 2%;
+    transition: all 1s ease-out;
 }
 nav a:hover{
     color: orange;
     border-bottom: 2px solid gold;
+    background-color: rgba(0, 0, 0, 0.315);
 }
 nav li{
     width: 32%;
@@ -39,6 +41,10 @@ footer img{
     background: rgba(255, 255, 255, 0.692);
     width: 5%;
     margin-left: 20%;
+    transition: transform 1s;
+}
+footer img:hover{
+    transform: rotate(360deg);
 }
 
 /* PRESENTATION PAGE - ALPHABETIC ORDER */
@@ -137,6 +143,19 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+  
+@keyframes slidein{
+    from {
+      margin-left: 100%;
+      width: 150%;
+    }
+    to{
+      margin-left: 0%;
+      width: 100%;
+    }
 }
 main h3{
     text-shadow: 5px 4px 10px black;
