@@ -57,6 +57,13 @@ footer img:hover{
     flex-direction: column;
     border-radius: 30px;
 }
+.containerCompetences h3{
+    color : black;
+}
+.containerCompetences h4{
+    color : black;
+    font-weight: 400;
+}
 .containerDescription{
     background: rgba(139, 127, 127, 0.658);
     padding-top: 2%;
