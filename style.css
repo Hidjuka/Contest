@@ -1,25 +1,27 @@
-/* ALL PAGES */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* NAV BAR - ALPHABETIC ORDER */
+.menu{
+    display: inline-block;
+}
 nav{
     width: 100%;
     background-color: rgba(112, 108, 108, 0.726);
 }
-
 nav a{
     display: block;
     color: whitesmoke;
 }
-
 nav a:hover{
     color: orange;
     border-bottom: 2px solid gold;
 }
 
+/* FOOTER */
 footer{
     background: rgba(139, 127, 127, 0.658);
     padding-top: 2%;
@@ -30,12 +32,8 @@ footer img{
     width: 5%;
     margin-left: 20%;
 }
-.menu{
-    display: inline-block;
-}
 
-
-/* PRESENTATION PAGE - ALPHABETIC ORDER*/
+/* PRESENTATION PAGE - ALPHABETIC ORDER */
 .containerCompetences{
     background: rgba(255, 255, 255, 0.692);
     width: 33%;
