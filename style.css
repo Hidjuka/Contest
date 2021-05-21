@@ -125,7 +125,27 @@ main article{
     display: flex;
     justify-content: center;
 }
-#organizationArticle h1{
+article h1{
     display: flex;
+    justify-content: center;
+}
+
+/* HOME PAGE - ALPHABETIC ORDER */
+header{
+    background-color: rgba(255, 255, 255, 0.692);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main h3{
+    text-shadow: 5px 4px 10px black;
+    font-weight: 500;
+    color: whitesmoke;
+}
+.recentProject{
+    background-color: rgba(139, 127, 127, 0.658);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
