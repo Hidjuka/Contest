@@ -4,6 +4,60 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+
+
+
+
+
+#organizationArticle{
+    background-color: rgba(139, 127, 127, 0.658);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article{
+    background-color: rgba(255, 255, 255, 0.692);
+    flex-basis: 31%;
+    border-radius: 30px;
+    margin: 1%;
+    height: 10%;
+}
+
+article img{
+    width: 75%;
+}
+
+article a{
+    margin: 8%;
+    font-weight: 500;
+}
+
+figcaption{
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* NAV BAR - ALPHABETIC ORDER */
 .menu{
     display: inline-block;
