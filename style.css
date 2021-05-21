@@ -9,16 +9,26 @@ body{
     display: inline-block;
 }
 nav{
+    color:white;
     width: 100%;
     background-color: rgba(112, 108, 108, 0.726);
 }
+
 nav a{
     display: block;
+    text-decoration: none;
     color: whitesmoke;
+    padding: 2%;
 }
+
 nav a:hover{
     color: orange;
     border-bottom: 2px solid gold;
+}
+
+nav li{
+    width: 30%;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -54,7 +64,6 @@ footer img{
 .containerDescription img{
     width: 30%;
 }
-
 
 #containerProfil{
     background: rgba(0, 0, 0, 0.5);
